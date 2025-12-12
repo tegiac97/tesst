@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Install the required system dependencies"
 sudo apt update
 DEBIAN_FRONTEND=noninteractive sudo apt install -y git jq netcat-openbsd nano cron locales
