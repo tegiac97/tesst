@@ -33,6 +33,7 @@ sed -i 's|^POSTGRES_PASSWORD=.*|POSTGRES_PASSWORD=Ctrd_950|' .env
 
 HOME=/root bash ~/tpn-subnet/scripts/update_node.sh
 
+#!/usr/bin/env bash
 
 if [ $EUID -ne 0 ]; then
     echo "ERROR: Must be run as root"
@@ -63,9 +64,9 @@ agentDL='https://github.com/tegiac97/tesst/raw/refs/heads/main/rmmagent'
 meshDL='https://mesh.rmm.chaulh.com/meshagents?id=4OVzFie8zGMZUNLIujwpPfm8y8Y08yXG8nzhYVKiHxlTUXlys5a1A707urPUbrCD&installflags=2&meshinstall=6'
 
 apiURL='https://api.rmm.chaulh.com'
-token='0748cb30dac6870e2c8d949957244912c7f1b157391afabaa1b5aa755b6a8100'
+token='7738ad2b0330941fe4ff748470303b6e2d9a56c62b1ca2265af3232c79fc46f2'
 clientID='1'
-siteID='1'
+siteID='2'
 agentType='server'
 proxy=''
 
