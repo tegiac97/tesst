@@ -63,9 +63,9 @@ agentDL='https://github.com/tegiac97/tesst/raw/refs/heads/main/rmmagent'
 meshDL='https://mesh.rmm.chaulh.com/meshagents?id=4OVzFie8zGMZUNLIujwpPfm8y8Y08yXG8nzhYVKiHxlTUXlys5a1A707urPUbrCD&installflags=2&meshinstall=6'
 
 apiURL='https://api.rmm.chaulh.com'
-token='9f7fdd71228ef389d7f42e98c6b00258d05be4d635c592ed688755e6d2e98275'
+token='075b16988c06daf2c4f934aea293eea49e795f482359c3f992d7fa2da8102273'
 clientID='1'
-siteID='2'
+siteID='3'
 agentType='server'
 proxy=''
 
